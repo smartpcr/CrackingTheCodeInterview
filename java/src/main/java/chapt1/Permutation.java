@@ -18,6 +18,8 @@ public class Permutation {
         for (char c : input1.toCharArray()) {
             if(occurrences.containsKey(c)) {
                 occurrences.put(c, occurrences.get(c) + 1);
+            } else {
+                occurrences.put(c, 1);
             }
         }
 

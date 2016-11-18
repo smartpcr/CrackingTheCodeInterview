@@ -28,8 +28,4 @@ public class IsUnique {
         return hasAllUniqueChars(input, false);
     }
 
-    public static void main(String[] args) {
-
-
-    }
 }
